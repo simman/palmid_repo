@@ -1,0 +1,30 @@
+{
+  "name": "PalmIDNativeSDK",
+  "version": "0.0.8.1.0.19-21",
+  "summary": "A powerful SDK for biometric palm recognition and authentication.",
+  "description": "The PalmIDNativeSDK provides developers with advanced tools for integrating biometric palm recognition technology into their applications. This SDK allows for seamless authentication and identification processes, ensuring secure and efficient user experiences. With its easy-to-use interface and comprehensive documentation, developers can quickly implement palm recognition features, enhancing security and accessibility in various applications, including mobile banking, access control, and personal identification solutions.",
+  "homepage": "https://github.com/rrbpalm/palmid-sdk-native",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lunnnnul": "lunnnnul@gmail.com"
+  },
+  "source": {
+    "http": "http://127.0.0.1:3009/PalmIDNativeSDK-0.0.8.1.0.19-21.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "PalmIDNativeSDK/Frameworks/PalmIDNativeSDK.framework/Headers/*.h",
+  "dependencies": {
+    "SVProgressHUD": [
+      "~> 2.3.1"
+    ]
+  },
+  "ios": {
+    "vendored_frameworks": "PalmIDNativeSDK/Frameworks/*.xcframework"
+  }
+}
